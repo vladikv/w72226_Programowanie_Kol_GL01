@@ -12,10 +12,10 @@ class Book {
   }
 
   const books = [
-    new Book("Lalka", 1890, "Bolesław", "Prus"),
-    new Book("Pan Tadeusz", 1834, "Adam", "Mickiewicz"),
-    new Book("Quo Vadis", 1896, "Henryk", "Sienkiewicz"),
-    new Book("Ferdydurke", 1937, "Witold", "Gombrowicz")
+    new Book("test", 1890, "autor name", "autor"),
+    new Book("test 2", 1834, "autor name2", "autor 2"),
+    new Book("test 3", 1896, "autor name3", "autor 3"),
+    new Book("test 4", 1937, "autor name4", "autor 4")
   ];
 
   const selectedYear = 1896;

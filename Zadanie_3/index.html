@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie_3</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <form id="registerForm">
+
+        <label>Email:
+        <input type="email" id="email" required>
+        </label> <br>
+
+        <label>Hasło:
+        <input type="password" id="password" required>
+        </label> <br>
+
+        <label>Kraj:
+        <select id="country" required>
+            <option value="">-- Wybierz kraj --</option>
+            <option value="Polska">Polska</option>
+            <option value="Niemcy">Niemcy</option>
+            <option value="Ukraina">Francja</option>
+            <option value="USA">USA</option>
+        </select>
+        </label> <br>
+
+        <button type="submit">Zarejestruj się</button>
+    <p class="error" id="errorMsg"></p>
+  </form>
+</body>
+</html>
